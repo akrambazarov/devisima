@@ -1,0 +1,515 @@
+/* Importing Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+font-family: 'Poppins', sans-serif;
+padding: 0;
+margin: 0;
+}
+.css-l4owvb {
+  padding: 37px 16px;
+  background-color: #FFFFFF;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+
+.head-content {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-171onha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.css-title {
+  display: grid;
+width: 100%;
+grid-template-columns: 155px calc(100% - 275px) 120px;
+}
+.dis-flex{display: flex;align-items: center;}
+.dis-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    margin-right: 5px;
+}
+.center{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+ .dis-grid div{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 20px!important;
+    background-color: #3F8DB1;
+}
+
+.dis-grid div:nth-child(2) {
+    background-color: #9AC101;
+}
+.dis-grid div:nth-child(3) {
+    background-color: #9AC101;
+}
+
+
+.css-logo h1 {
+  font-weight: 300;
+  font-size: 24px;
+  color: #58a9a5;
+}
+
+.css-axw7ok {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.css-171onha a {
+  text-decoration: none;
+  color: #333;
+}
+
+.css-li {
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  justify-content: flex-start;
+  position: relative;
+  text-decoration: none;
+  min-height: 48px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.css-przzdi, .btn button {
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 33px;
+    cursor: pointer;
+    background-color: #161616;
+    color: #ffffff;
+}
+
+.css-ja35m6 {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.00938em;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/*------------- Main Content ------------*/
+main.content .container, main.content .project{
+  display: flex;
+  padding: 20px 30px 20px 30px;
+  justify-content: center;
+}
+.backGr{background-color: #292F3A;
+ background: url(../img/v80_1352.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;}
+main.content .txt-desc {
+  font-size: 24px;
+  display: grid;
+}
+main.content .desc {
+  font-size: 12px;
+  padding-right: 20px;
+  color: #000000;
+
+}
+main.content .dis-flex .desc{  
+    line-height: 24px;
+    color: #ffffff;
+}
+main.content .desc  * {
+    margin: 10px 0px;
+}
+
+.padding-global{
+    width: calc(90% - 25px);
+}
+main.content .img {
+  padding: 9.5rem;
+  background: url(../img/Image_1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+main.content .txt h3, main.content .btn {
+  font-size: 34px;
+  font-weight: 400;
+  margin: revert;
+}
+
+main.content .btn button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 40px;
+  border-radius:20px;
+  background: #569c27;
+}.padding-block{padding: 65px 0px;}
+.blue{color: #1d3444!important;}
+.blocks{
+    display: grid!important;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+}
+
+.v80_1244 {
+
+  background: rgba(41,47,58,1);
+
+  margin: 15px;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.ProInd{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.ProInd .desc{
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.v80_1245 {
+width: 45px;
+  background: rgba(33,36,43,1);
+  padding: 10px;
+  margin: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.v80_1246 {
+  width: 25px;
+  height: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+
+  top: 16px;
+  left: 16px;
+  overflow: hidden;
+}
+.v80_1247 {
+  width: 25px;
+  height: 10px;
+  border: 1px  solid rgba(54,127,172,1);
+}
+.v80_1248 {
+  width: 25px;
+  height: 7px;
+  border: 1px  solid rgba(54,127,172,1);
+}
+.v80_1249 {
+  width: 25px;
+  height: 12px;
+  border: 1px solid rgba(54,127,172,1);
+  border-bottom: 1px solid #367fac;
+}
+.v80_1250 {
+
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 4px 0px;
+  margin: 12px;
+
+  overflow: hidden;
+}
+.v80_1251 {
+
+  color: rgba(255,255,255,1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v80_1252 {
+
+  color: rgba(180,187,197,1);
+  font-family: Poppins;
+  font-weight: Light;
+  font-size: 8px;
+  opacity: 1;
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.block{background-color: #1c3483!important;
+color: #fff!important;
+max-width:300px;
+height:115px;
+padding: 0px 10px!important;
+font-size: 7px !important;
+border-radius: 10px;
+}
+main.content .contacts {
+  margin: auto;
+  display: table;
+  padding: 50px 0px;
+  font-weight: 300;
+  text-align: center;
+}
+main.content .container .imgp {
+  padding: 9.5rem;
+  background: url(../img/v77_30.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+main.content .css-pict {
+  background: url(../img/v77_26.png);
+  width: calc(90% - 45px);
+  margin: auto;
+  height: 200px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-size: contain;
+  background-repeat: round;
+  background-position: center center;
+}
+main.content .css-bg {
+  position: relative;
+  width: calc(45% - 20px);
+  height: 100%;
+  left: calc(50% - 20px);
+  padding: 0px 25px;
+  background: #ccf0e6;
+  display: grid;
+  gap: 30px;
+  align-content: space-evenly;
+}
+main.content .desc.bg {
+  font-size: 15px;
+  color: #486958;
+}
+main.content .css-bg:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px 7px rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 95px;
+  left: -25px;
+  background: #FFFFFF;
+}
+main.content .btn-icn {
+  position: relative;
+  width: 50px;
+  top: 50px;
+  height: 50px;
+  left: -50px;
+  background: #333;
+  border-radius: 50%;
+}
+main.content .imgs {
+  background: url(../img/v77_32.png);
+  padding: 170px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+main.content .bf {
+  position: relative;
+}
+main.content .desc .bg {
+  font-size: 12px;
+  color: #486958;
+}
+main.content .desc .bg:before, main.content .desc .bg:after {
+  content: "";
+  border-radius: 2px;
+  border: 2px solid #58a9a5;
+  width: 105px;
+  position: absolute;
+  margin-top: 40px;
+}
+main.content .desc .bg:after {
+  margin-top: 55px;
+  margin-left: -330px;
+}
+main.content .desc.bf:before, main.content .desc.bf:after {
+  content: "";
+  width: 105px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+  border-radius: 2px;
+  border: 2px solid #58a9a5;
+}
+main.content .desc.bf:after {
+  top: 45px;
+}
+
+.css-img-project-one {
+  width: 220px;
+  margin-top: 20px;
+  height: 250px;
+  background: url(../img/v77_31.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 225px;
+  border-bottom-right-radius: 225px;
+}
+
+.css-img-project-three {
+  background: url(../img/v77_33.png);
+  width: 220px;
+  margin-top: 20px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 225px;
+  border-bottom-right-radius: 225px;
+}
+
+.css-img-project-two {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 220px;
+  height: 220px;
+  background: url(../img/v77_34.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.txt {
+  display: grid;
+  gap: 20px;
+  padding-top: 20px;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.img-p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  padding: 20px 0px;
+}
+
+.pro_three, .pro_two, .pro_one {
+  width: 30%;
+}
+
+.desc .span {
+  font-size: 12px;
+}
+
+.desc .span:before {
+  content: attr(data-text);
+  position: absolute;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Port Lligat", sans-serif;
+  font-size: 150px;
+  margin-top: -58px;
+  margin-left: -25px;
+}
+
+form {
+  align-content: space-evenly;
+  width: 56%;
+  border: 1px solid #486958;
+}
+
+form .btn {
+  padding: 20px;
+  margin: auto !important;
+}
+
+input {
+  outline: none;
+  overflow: hidden;
+  border: 0;
+  margin-top: 15px;
+  padding: 4px 10px;
+}
+
+.font-400 {
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
+form{   
+    align-content: space-evenly;
+    width: 56%;
+    border: 1px solid #486958;
+}
+main.content .button button {
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 8px 8px 8px 0px;
+    background: #58a9a5;
+}
+    form .button{padding: 20px;margin: auto!important;}
+input{
+    outline: none;
+    overflow: hidden;
+    border: 0;
+    margin-top: 15px;
+    padding: 4px 10px;
+}
+.font-400{
+    font-weight: 400;
+}

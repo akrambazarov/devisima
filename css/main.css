@@ -1,0 +1,57 @@
+/* Importing Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+}
+
+
+@media(max-width: 878px) {
+
+.css-title{gap: 20px;}
+.desc .bg:before{
+  margin-top: 65px!important;
+}
+.img{width: auto!important;}
+.desc {font-size: 14px!important;}
+.img img {width: 280px;}
+.txt h3, .btn {font-size:25px!important;margin: 0!important}
+.txt-desc.padd{padding: 0 1em!important;}
+}
+
+/* Responsive media query code for mobile devices */
+@media(max-width: 712px) {
+    .container, .project {
+flex-wrap: wrap;
+flex-direction: column;
+}
+    .img img {
+        width: 390px;
+
+        display: flex;
+        margin: auto;
+      }
+.project{    
+    justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+      .pro_three, .pro_two, .pro_one {
+    width: 100%;
+}
+.css-img-project-one,.css-img-project-two,.css-img-project-three {
+    width: 100%;
+    border-radius:0px;
+  }
+.btn button{ margin: 20px auto;}
+    .txt-desc {
+        gap: 25px;
+    }
+}
